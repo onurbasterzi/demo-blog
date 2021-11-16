@@ -68,8 +68,8 @@ const Update = () => {
             ></textarea>
             <label>Blog Title:</label>
             <select defaultValue={blog.author} ref={authorRef}>
-              <option value="mario">Mario</option>
-              <option value="yoshi">Yoshi</option>
+              <option value="user1">User 1</option>
+              <option value="user2">User 2</option>
             </select>
 
             {!isLoading && <button>Update Blog</button>}
