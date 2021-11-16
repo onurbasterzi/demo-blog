@@ -66,7 +66,7 @@ const Update = () => {
               defaultValue={blog.body}
               ref={bodyRef}
             ></textarea>
-            <label>Blog Title:</label>
+            <label>Blog Author:</label>
             <select defaultValue={blog.author} ref={authorRef}>
               <option value="user1">User 1</option>
               <option value="user2">User 2</option>

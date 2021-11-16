@@ -5,7 +5,7 @@ import { useHistory } from "react-router";
 const Create = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-  const [author, setAuthor] = useState("yoshi");
+  const [author, setAuthor] = useState("user1");
   const [isPending, setIsPending] = useState(false);
   const history=useHistory()
 
@@ -65,9 +65,7 @@ const Create = () => {
         </select>
         {!isPending && <button>Add Blog</button>}
         {isPending && <button disabled>Addding ...</button>}
-        <p>{title}</p>
-        <p>{body}</p>
-        <p>{author}</p>
+        
       </form>
     </div>
   );
